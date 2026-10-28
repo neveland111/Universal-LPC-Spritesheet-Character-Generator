@@ -337,3 +337,77 @@ test("parseItem path override places item in different UI location than its file
     "hat_helmet_mail",
   ]);
 });
+
+test("parseItem keeps imported LPC layer hash keys and omits child body type", () => {
+  resetTestState();
+  const sheetsDir = path.join("sheet_definitions");
+  const adultBodies = ["male", "female", "teen", "muscular", "pregnant"];
+
+  const imported = [
+    {
+      dir: path.join(sheetsDir, "weapons", "ranged"),
+      file: "weapon_ranged_shotgun.json",
+      itemId: "weapon_ranged_shotgun",
+      typeName: "weapon",
+      name: "Shotgun",
+      variants: ["shotgun"],
+      animations: ["thrust", "walk"],
+      zPos: 140,
+      creditFile: "weapon/ranged/shotgun",
+    },
+    {
+      dir: path.join(sheetsDir, "headwear", "accessories", "glasses"),
+      file: "facial_glasses_goggles.json",
+      itemId: "facial_glasses_goggles",
+      typeName: "facial_eyes",
+      name: "Goggles",
+      variants: ["goggles"],
+      animations: ["walk", "idle", "jump", "run", "sit", "emote"],
+      zPos: 115,
+      creditFile: "facial/glasses/goggles",
+    },
+    {
+      dir: path.join(sheetsDir, "headwear", "hats", "formal"),
+      file: "hat_formal_stetson.json",
+      itemId: "hat_formal_stetson",
+      typeName: "hat",
+      name: "Formal Stetson",
+      variants: ["banded", "noband"],
+      animations: ["walk", "idle", "jump", "run", "sit", "emote"],
+      zPos: 130,
+      creditFile: "hat/formal/stetson",
+    },
+    {
+      dir: path.join(sheetsDir, "headwear", "coverings", "headbands"),
+      file: "hat_headband_magic.json",
+      itemId: "hat_headband_magic",
+      typeName: "headcover",
+      name: "Magic Headband",
+      variants: ["magic"],
+      animations: [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+      ],
+      zPos: 110,
+      creditFile: "hat/headband/magic",
+    },
+  ];
+
+  for (const item of imported) {
+    parseItem(item.dir, item.file, { sheetsDir });
+    const meta = itemMetadata[item.itemId];
+    assert.equal(meta.type_name, item.typeName);
+    assert.equal(meta.name, item.name);
+    assert.deepEqual(meta.variants, item.variants);
+    assert.deepEqual(meta.animations, item.animations);
+    assert.deepEqual(meta.required, adultBodies);
+    assert.ok(!meta.required.includes("child"));
+    assert.equal(meta.layers!.layer_1.zPos, item.zPos);
+    assert.equal(meta.credits![0].file, item.creditFile);
+  }
+});

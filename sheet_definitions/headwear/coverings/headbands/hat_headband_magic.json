@@ -1,0 +1,39 @@
+{
+  "name": "Magic Headband",
+  "layer_1": {
+    "zPos": 110,
+    "male": "hat/headband/magic/adult/",
+    "female": "hat/headband/magic/adult/",
+    "muscular": "hat/headband/magic/adult/",
+    "pregnant": "hat/headband/magic/adult/",
+    "teen": "hat/headband/magic/adult/"
+  },
+  "variants": [
+    "magic"
+  ],
+  "animations": [
+    "spellcast",
+    "thrust",
+    "walk",
+    "slash",
+    "shoot",
+    "hurt",
+    "watering"
+  ],
+  "credits": [
+    {
+      "file": "hat/headband/magic",
+      "notes": "classic 13x21 LPC sheet split into spellcast, thrust, walk, slash, shoot, and hurt; author intends it drawn under the hair",
+      "authors": [
+        "Pierre Vigier (pvigier)"
+      ],
+      "licenses": [
+        "OGA-BY 3.0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/lpc-magic-headband"
+      ]
+    }
+  ],
+  "type_name": "headcover"
+}
