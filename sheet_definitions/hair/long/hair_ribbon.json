@@ -1,0 +1,39 @@
+{
+  "name": "Ribbon",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/ribbon/adult/",
+    "muscular": "hair/ribbon/adult/",
+    "female": "hair/ribbon/adult/",
+    "pregnant": "hair/ribbon/adult/",
+    "teen": "hair/ribbon/adult/"
+  },
+  "variants": [
+    "pink"
+  ],
+  "animations": [
+    "spellcast",
+    "thrust",
+    "walk",
+    "slash",
+    "shoot",
+    "hurt",
+    "watering"
+  ],
+  "credits": [
+    {
+      "file": "hair/ribbon",
+      "notes": "classic 13x21 LPC sheet split into spellcast, thrust, walk, slash, shoot, and hurt; pink variant from the original upload",
+      "authors": [
+        "thecilekli"
+      ],
+      "licenses": [
+        "CC0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/lpc-female-hair-w-ribbon"
+      ]
+    }
+  ],
+  "type_name": "hair"
+}
