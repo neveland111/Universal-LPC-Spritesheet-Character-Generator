@@ -1,0 +1,38 @@
+{
+  "name": "Shotgun",
+  "preview_row": 2,
+  "preview_column": 1,
+  "preview_x_offset": 0,
+  "preview_y_offset": 18,
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/ranged/shotgun/",
+    "muscular": "weapon/ranged/shotgun/",
+    "female": "weapon/ranged/shotgun/",
+    "pregnant": "weapon/ranged/shotgun/",
+    "teen": "weapon/ranged/shotgun/"
+  },
+  "variants": [
+    "shotgun"
+  ],
+  "animations": [
+    "thrust",
+    "walk"
+  ],
+  "credits": [
+    {
+      "file": "weapon/ranged/shotgun",
+      "notes": "universal LPC sheet split into walk and thrust rows; not split into foreground/background layers",
+      "authors": [
+        "blancaster45"
+      ],
+      "licenses": [
+        "CC0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/lpc-shotgun-animation-and-icon"
+      ]
+    }
+  ],
+  "type_name": "weapon"
+}
