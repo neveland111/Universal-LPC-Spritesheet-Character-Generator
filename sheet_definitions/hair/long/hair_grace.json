@@ -1,0 +1,40 @@
+{
+  "name": "Grace",
+  "layer_1": {
+    "zPos": 120,
+    "male": "hair/grace/adult/",
+    "muscular": "hair/grace/adult/",
+    "female": "hair/grace/adult/",
+    "pregnant": "hair/grace/adult/",
+    "teen": "hair/grace/adult/"
+  },
+  "variants": [
+    "red",
+    "grey"
+  ],
+  "animations": [
+    "spellcast",
+    "thrust",
+    "walk",
+    "slash",
+    "shoot",
+    "hurt",
+    "watering"
+  ],
+  "credits": [
+    {
+      "file": "hair/grace",
+      "notes": "classic 13x21 LPC sheet split into spellcast, thrust, walk, slash, shoot, and hurt; red and grey variants from the original upload",
+      "authors": [
+        "thecilekli"
+      ],
+      "licenses": [
+        "CC0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/lpc-grace-hair"
+      ]
+    }
+  ],
+  "type_name": "hair"
+}
