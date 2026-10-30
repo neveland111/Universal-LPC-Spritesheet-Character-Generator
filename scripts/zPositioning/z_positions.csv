@@ -749,6 +749,7 @@ weapon_blunt_waraxe,layer_1,9,weapon/blunt/waraxe/behind/ weapon/blunt/waraxe/be
 weapon_blunt_waraxe,layer_2,140,weapon/blunt/waraxe/ weapon/blunt/waraxe/ weapon/blunt/waraxe/ weapon/blunt/waraxe/
 weapon_blunt_waraxe,layer_3,8,weapon/blunt/waraxe/attack_slash/behind/ weapon/blunt/waraxe/attack_slash/behind/ weapon/blunt/waraxe/attack_slash/behind/ weapon/blunt/waraxe/attack_slash/behind/
 weapon_blunt_waraxe,layer_4,150,weapon/blunt/waraxe/attack_slash/ weapon/blunt/waraxe/attack_slash/ weapon/blunt/waraxe/attack_slash/ weapon/blunt/waraxe/attack_slash/
+weapon_blunt_warhammer,layer_1,140,weapon/blunt/warhammer/ weapon/blunt/warhammer/ weapon/blunt/warhammer/ weapon/blunt/warhammer/
 weapon_magic_crystal,layer_1,140,weapon/magic/crystal/universal/foreground/ weapon/magic/crystal/universal/foreground/ weapon/magic/crystal/universal/foreground/ weapon/magic/crystal/universal/foreground/
 weapon_magic_crystal,layer_2,9,weapon/magic/crystal/universal/background/ weapon/magic/crystal/universal/background/ weapon/magic/crystal/universal/background/ weapon/magic/crystal/universal/background/
 weapon_magic_crystal,layer_3,150,weapon/magic/crystal/thrust/foreground/ weapon/magic/crystal/thrust/foreground/ weapon/magic/crystal/thrust/foreground/ weapon/magic/crystal/thrust/foreground/
