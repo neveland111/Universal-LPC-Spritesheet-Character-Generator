@@ -445,6 +445,28 @@ test("parseItem keeps imported LPC layer hash keys and omits child body type", (
       zPos: 140,
       creditFile: "weapon/blunt/warhammer",
     },
+    {
+      dir: path.join(sheetsDir, "weapons", "blunt"),
+      file: "weapon_blunt_battleaxe.json",
+      itemId: "weapon_blunt_battleaxe",
+      typeName: "weapon",
+      name: "Battleaxe",
+      variants: ["battleaxe"],
+      animations: ["slash", "walk"],
+      zPos: 140,
+      creditFile: "weapon/blunt/battleaxe",
+    },
+    {
+      dir: path.join(sheetsDir, "weapons", "blunt"),
+      file: "weapon_blunt_battlepickaxe.json",
+      itemId: "weapon_blunt_battlepickaxe",
+      typeName: "weapon",
+      name: "Battle Pickaxe",
+      variants: ["battlepickaxe"],
+      animations: ["slash", "walk"],
+      zPos: 140,
+      creditFile: "weapon/blunt/battlepickaxe",
+    },
   ];
 
   for (const item of imported) {

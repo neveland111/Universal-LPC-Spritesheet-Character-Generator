@@ -735,6 +735,8 @@ torso_jacket_pockets,layer_1,59,torso/jacket/trim/jacket_pockets/
 torso_jacket_santa,layer_1,55,torso/jacket/santa/male/
 torso_jacket_tabard,layer_1,55,torso/jacket/tabard/male/ torso/jacket/tabard/female/
 torso_jacket_trench,layer_1,55,torso/jacket/trench/male/
+weapon_blunt_battleaxe,layer_1,140,weapon/blunt/battleaxe/ weapon/blunt/battleaxe/ weapon/blunt/battleaxe/ weapon/blunt/battleaxe/
+weapon_blunt_battlepickaxe,layer_1,140,weapon/blunt/battlepickaxe/ weapon/blunt/battlepickaxe/ weapon/blunt/battlepickaxe/ weapon/blunt/battlepickaxe/
 weapon_blunt_club,layer_1,140,weapon/blunt/club/ weapon/blunt/club/ weapon/blunt/club/ weapon/blunt/club/
 weapon_blunt_club,layer_2,9,weapon/blunt/club/background/ weapon/blunt/club/background/ weapon/blunt/club/background/ weapon/blunt/club/background/
 weapon_blunt_flail,layer_1,9,weapon/blunt/flail/behind/ weapon/blunt/flail/behind/ weapon/blunt/flail/behind/ weapon/blunt/flail/behind/
