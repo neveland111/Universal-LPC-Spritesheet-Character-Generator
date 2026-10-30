@@ -1,0 +1,42 @@
+{
+  "name": "Battle Pickaxe",
+  "preview_row": 2,
+  "preview_column": 1,
+  "preview_x_offset": 0,
+  "preview_y_offset": 18,
+  "layer_1": {
+    "zPos": 140,
+    "male": "weapon/blunt/battlepickaxe/",
+    "muscular": "weapon/blunt/battlepickaxe/",
+    "female": "weapon/blunt/battlepickaxe/",
+    "pregnant": "weapon/blunt/battlepickaxe/",
+    "teen": "weapon/blunt/battlepickaxe/"
+  },
+  "variants": [
+    "battlepickaxe"
+  ],
+  "animations": [
+    "slash",
+    "walk"
+  ],
+  "credits": [
+    {
+      "file": "weapon/blunt/battlepickaxe",
+      "notes": "classic 13x21 LPC sheet split into walk and slash rows; combat slash layer distinct from tools/pickaxe; not split into foreground/background layers",
+      "authors": [
+        "Tuomo Untinen (reemax)",
+        "DarkwallLKE"
+      ],
+      "licenses": [
+        "CC-BY-SA 3.0",
+        "GPL 3.0",
+        "GPL 2.0"
+      ],
+      "urls": [
+        "https://opengameart.org/content/lpc-pickaxe",
+        "https://opengameart.org/content/lpc-items-and-game-effects"
+      ]
+    }
+  ],
+  "type_name": "weapon"
+}
