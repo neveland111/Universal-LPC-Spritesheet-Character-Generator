@@ -1,0 +1,40 @@
+{
+  "name": "Formal Stetson",
+  "layer_1": {
+    "zPos": 130,
+    "male": "hat/formal/stetson/adult/",
+    "female": "hat/formal/stetson/adult/",
+    "muscular": "hat/formal/stetson/adult/",
+    "pregnant": "hat/formal/stetson/adult/",
+    "teen": "hat/formal/stetson/adult/"
+  },
+  "variants": [
+    "banded",
+    "noband"
+  ],
+  "animations": [
+    "walk",
+    "idle",
+    "jump",
+    "run",
+    "sit",
+    "emote"
+  ],
+  "credits": [
+    {
+      "file": "hat/formal/stetson",
+      "notes": "revised LPC sheets for ElizaWy bases; only idle, walk, jump, run, sit, and emote are provided; author notes E/W brim angle is a Cabbit layout leftover",
+      "authors": [
+        "Jordan Irwin (AntumDeluge)"
+      ],
+      "licenses": [
+        "OGA-BY 3.0+",
+        "CC-BY 3.0+"
+      ],
+      "urls": [
+        "https://opengameart.org/content/stetson-cowboy-hat"
+      ]
+    }
+  ],
+  "type_name": "hat"
+}

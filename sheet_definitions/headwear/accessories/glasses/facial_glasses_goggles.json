@@ -1,0 +1,39 @@
+{
+  "name": "Goggles",
+  "layer_1": {
+    "zPos": 115,
+    "male": "facial/glasses/goggles/adult/",
+    "muscular": "facial/glasses/goggles/adult/",
+    "female": "facial/glasses/goggles/adult/",
+    "pregnant": "facial/glasses/goggles/adult/",
+    "teen": "facial/glasses/goggles/adult/"
+  },
+  "variants": [
+    "goggles"
+  ],
+  "animations": [
+    "walk",
+    "idle",
+    "jump",
+    "run",
+    "sit",
+    "emote"
+  ],
+  "credits": [
+    {
+      "file": "facial/glasses/goggles",
+      "notes": "revised LPC sheets for ElizaWy bases; only idle, walk, jump, run, sit, and emote are provided",
+      "authors": [
+        "Jordan Irwin (AntumDeluge)"
+      ],
+      "licenses": [
+        "OGA-BY 3.0+",
+        "CC-BY 3.0+"
+      ],
+      "urls": [
+        "https://opengameart.org/content/goggles"
+      ]
+    }
+  ],
+  "type_name": "facial_eyes"
+}
